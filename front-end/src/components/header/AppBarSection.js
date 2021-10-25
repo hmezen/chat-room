@@ -25,7 +25,7 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => ({
   appBar: {
     zIndex: theme.zIndex.drawer + 1,
-    backgroundColor: "rgb(237 233 225)",
+    backgroundColor: "#88BDBC",
     height: "60px",
   },
   largeAvatar: {
@@ -134,7 +134,7 @@ function AppBarSection({ history, ...props }) {
                       placement="left"
                     >
                       <Badge
-                        color="secondary"
+                        // color="secondary"
                         overlap="circular"
                         badgeContent=" "
                         variant="dot"

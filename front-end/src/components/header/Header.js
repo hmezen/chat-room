@@ -459,6 +459,7 @@ function Header({ history }) {
               <Link
                 to="#"
                 variant="body2"
+                style={{ color: theme.palette.secondary.main }}
                 onClick={() =>
                   dispatchHeaderReducer({ type: "openSignUpModal" })
                 }
@@ -597,6 +598,7 @@ function Header({ history }) {
               <Link
                 to="#"
                 variant="body2"
+                style={{ color: theme.palette.secondary.main }}
                 onClick={() => {
                   dispatchHeaderReducer({ type: "closeSignUpModal" });
                   dispatchHeaderReducer({ type: "setLoginModal", value: true });

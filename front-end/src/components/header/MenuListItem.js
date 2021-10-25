@@ -4,13 +4,14 @@ import { ListItemText, ListItemIcon, ListItem } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
 
 const MenuListItem = ({ eventClick, to, menuSelectedTab, icon, title }) => {
-  const MyListItem = withStyles({
+  const MyListItem = withStyles((theme) => ({
     selected: {
       "&$selected, &$selected:hover": {
-        borderLeft: "3px solid #7c2a22",
+        borderLeft: "3px solid",
+        borderLeftColor: theme.palette.primary.light,
       },
     },
-  })(ListItem);
+  }))(ListItem);
 
   return (
     <MyListItem

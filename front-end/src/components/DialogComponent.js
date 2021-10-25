@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100px",
     margin: "24px 0px",
     borderRadius: "8px",
-    border: "4px solid #9db9c4",
+    border: "4px solid " + theme.palette.secondary.main,
   },
   dialogDisplay: {
     display: "block",
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
   leftPart: {
     display: "flex",
     width: "100%",
-    backgroundColor: "rgb(244 242 242)",
+    backgroundColor: "#88BDBC",
     [theme.breakpoints.up("sm")]: {
       width: "284px",
     },
@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     margin: "auto 0px",
     padding: "30px",
-    color: "rgb(116 28 20)",
+    color: theme.palette.primary,
   },
 }));
 
