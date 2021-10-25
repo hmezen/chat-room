@@ -84,7 +84,7 @@ const ChatRoom = ({
           ) : null
         }
       >
-        <MessageSeparator content="Saturday, 30 November 2019" />
+        {/* <MessageSeparator content="Saturday, 30 November 2019" /> */}
         {messages.length > 0
           ? messages.map((message, index) => {
               return (

@@ -28,10 +28,22 @@ const myTheme = createTheme({
   },
   palette: {
     primary: {
-      main: "#7c2a22",
-      light: "#7c2a22",
-      dark: "#9db9c4",
+      light: "#254E58",
+      main: "#254E58",
+      dark: "#112D32",
+      // contrastText: "#fff",
     },
+    secondary: {
+      light: "#4F4A41",
+      main: "#4F4A41",
+      dark: "#6E6658",
+      contrastText: "#000",
+    },
+    // primary: {
+    //   main: "#7c2a22",
+    //   light: "#7c2a22",
+    //   dark: "#9db9c4",
+    // },
   },
 });
 
